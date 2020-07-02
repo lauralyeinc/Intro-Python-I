@@ -11,15 +11,25 @@ for more info regarding list comprehensions.
 # Write a list comprehension to produce the array [1, 2, 3, 4, 5]
 
 y = []
-
+for x in range(1,6):
+    y.append(x)
 print (y)
+"""
+because y is an empty array to add the numbers 1,2,3,4,5 you have to set up a for look and add each number by using the append method, called each number/int x within y.
+"""
 
 # Write a list comprehension to produce the cubes of the numbers 0-9:
 # [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
 
 y = []
-
+for x in range(0, 10):
+    y.append( x**3)
 print(y)
+
+"""
+working off the comments from above after setting up y with data
+we want it cubed with I thought 3 (not sure why) and before printing we took y and multiplied each x(number) by 3
+"""
 
 # Write a list comprehension to produce the uppercase version of all the
 # elements in array a. Hint: "foo".upper() is "FOO".
@@ -27,15 +37,23 @@ print(y)
 a = ["foo", "bar", "baz"]
 
 y = []
-
+for x in a:
+    y.append(x.upper())
 print(y)
+"""
+looking at a  we set up the for loop that each string is still x and 
+we are working it into the y list, instead of range we just use a.
+"""
 
+# !!!!! 👇
 # Use a list comprehension to create a list containing only the _even_ elements
 # the user entered into list x.
 
 x = input("Enter comma-separated numbers: ").split(',')
 
 # What do you need between the square brackets to make it work?
-y = []
+#y = [int(s) for s in x if int(s) % 2 === 0] # []
 
+y = [number for number in x if int(number) % 2 == 0]
+# command line Enter comma-separated numbers:
 print(y)

@@ -35,10 +35,21 @@ print("Distance is: {:.2f}".format(dist(a, b)))
 # Write a function `print_tuple` that prints all the values in a tuple
 
 # YOUR CODE HERE
+def print_tuple(tuples): 
+    for tuple in tuples:
+        print(tuple)
 
 t = (1, 2, 5, 7, 99)
 print_tuple(t)  # Prints 1 2 5 7 99, one per line
 
+""" notes: set up function (def) named print_tuple, took the params of tuples
+and set up a for loop to print out each number(t) on it's on own line
+if you would print(t) it would show you the tuples on one line.
+had to rename each number(t) to tuple to run thru to get each one by it's self.
+"""
+
+
 # Declare a tuple of 1 element then print it
-u = (1)  # What needs to be added to make this work?
+u = (1,)  # What needs to be added to make this work?
 print_tuple(u)
+""" print(u) show yous (1,) which we don't want we want to see it by it's self not with it's syntax, same as calling a function that is just writen not working. """

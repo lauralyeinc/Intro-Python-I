@@ -59,7 +59,7 @@ print(f3(8))     # Should print 9
 #!!!!!!!
 # YOUR CODE HERE
 def f4(**kwargs):
-    for key, value in kwargs:
+    for key, value in kwargs.items():
         print(f'key: {key}, value:{value}')
  # **kwargs are like *args but instead it returns a dictionary or obj = key #value pairs
 #(f'')  is like `${}` from JS. 

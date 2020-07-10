@@ -29,7 +29,7 @@ print(f2(1))                    # Should print 1
 print(f2(1, 3))                 # Should print 4
 print(f2(1, 4, -12))            # Should print -7
 print(f2(7, 9, 1, 3, 4, 9, 0))  # Should print 33
-#!!!!!!!!
+
 a = [7, 6, 5, 4]
 
 # How do you have to modify the f2 call below to make this work?
@@ -51,12 +51,11 @@ print(f3(8))     # Should print 9
 
 # Write a function f4 that accepts an arbitrary number of keyword arguments and
 # prints out the keys and values like so:
-#
 # key: foo, value: bar
 # key: baz, value: 12
 #
 # Note: Google "python keyword arguments".
-#!!!!!!!
+
 # YOUR CODE HERE
 def f4(**kwargs):
     for key, value in kwargs.items():
@@ -82,5 +81,3 @@ d = {
 
 # How do you have to modify the f4 call below to make this work?
 f4(**d)
-
-#!!!!!!!!!!!

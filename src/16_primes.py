@@ -8,3 +8,6 @@ def is_prime(num):
 
 if len(sys.argv) == 2:
     print(is_prime(int(sys.argv[1])))
+
+print(is_prime(8))
+print(is_prime(2))

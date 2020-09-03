@@ -86,7 +86,7 @@ The suggested order for going through each of the directories is:
    find instructions on installing a Python linter for VSCode
    [here](https://code.visualstudio.com/docs/python/linting)). Try installing
    one for your editor!
-  #√√ 
+  #√√   Installed Python extention, Pylint wasn't availabe. 
 
 2. Rewrite code challenges you've solved before or projects you've implemented
    before in a different language in Python. Start getting in as much practice
@@ -100,4 +100,5 @@ The suggested order for going through each of the directories is:
       Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes), one
       of the oldest algorithms known (ca. 200 BC).
 
-      #√√ 
+      #√√ 16_primes.py
+      
